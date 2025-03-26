@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0" />
+    </filter>
+    <filter id="filter_2">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0 0 0 0 0 0.23137255 0 0 0 0 0 0 0 0 1 0" />
+    </filter>
+    <path d="M0 0L100 0L100 100L0 100L0 0L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="close" filter="url(#filter_2)">
+    <g id="Delete-icon" filter="url(#filter_1)">
+      <path d="M0 0L100 0L100 100L0 100L0 0L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+      <g id="Mask-group">
+        <path d="M0 0L100 0L100 100L0 100L0 0L0 0Z" id="path_1" fill="none" stroke="none" />
+        <g clip-path="url(#mask_1)">
+          <g id="Group" transform="translate(12.768555 12.768555)" filter="url(#filter_1)">
+            <path d="M4.41894 0L0 4.41894L2.22168 6.61619L32.8125 37.2314L0 70.0437L4.41894 74.4631L37.2314 41.6504L67.8225 72.2656L70.0437 74.4631L74.4631 70.0437L72.2656 67.8225L41.6504 37.2314L74.4631 4.41894L70.0437 0L37.2314 32.8125L6.61619 2.22168L4.41894 0L4.41894 0Z" id="Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
