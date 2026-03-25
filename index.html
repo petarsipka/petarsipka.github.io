@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Petar Šipka - Dev Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+    <canvas id="hero-network" aria-hidden="true"></canvas>
+    <div class="hero-content">
+      <span class="hero-tag">Available for work</span>
+      <h1>Petar Šipka</h1>
+      <p class="hero-sub">
+        Comp-Sci student at <br><em>Faculty of Technical Sciencies, Novi Sad</em>
+      </p>
+      <div class="social-links">
+        <a class="social-btn" href="https://github.com/petarsipka" title="GitHub">GH</a>
+        <a class="social-btn" href="padding: 3rem 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;https://www.linkedin.com/in/petar-%C5%A1ipka-3771a8304/" title="LinkedIn">in</a>
+        <a class="social-btn" href="mailto:petarsipka90@gmail.com" title="Email">@</a>
+      </div>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View my work</a>
+        <a href="#about" class="btn btn-ghost">About me</a>
+        <a href="./CV/Petar Šipka CV.pdf" target="_blank" download class="btn btn-cv">Download CV ↓</a>
+      </div>
+    </div>
+    <div class="scroll-hint">scroll</div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label">What I've built</div>
+    <h2 class="section-title">Projects</h2>
+    <p class="section-sub">A selection of my university projects and production apps.</p>
+
+    <div class="projects-grid">
+
+      <div class="card reveal">
+        <div class="card-cover"><img src="./images/fkl/fklcover.png" alt="FKL Info Data preview"></div>
+        <h3>FKL Info Data</h3>
+        <p>Official mobile tool from FKL for professionals to access a bearing cross-reference database. <br><br>The app was presented at the AGRITECHNICA fair in Hanover, Germany.</p>
+        <div class="card-tags">
+          <span class="tag">Flutter</span>
+        </div>
+        <button class="card-link" data-project="0">View project →</button>
+      </div>
+
+      <div class="card reveal reveal-d1">
+        <div class="card-cover"><img src="./images/travel-vista/1.png" alt="Travel Vista preview"></div>
+        <h3>Travel Vista</h3>
+        <p>Tourist guide replacement platform made as a university project for the Software design course.<br><br>The platform was selected as the best among all teams by a panel of professors.</p>
+        <div class="card-tags">
+          <span class="tag">.NET</span>
+          <span class="tag">Angular</span>
+          <span class="tag">TypeScript</span>
+        </div>
+        <button class="card-link" data-project="1">View project →</button>
+      </div>
+
+      <div class="card reveal reveal-d2">
+        <div class="card-cover"><img src="./images/jutjubic/2.jpeg" alt="Jutjubic preview"></div>
+        <h3>Jutjubic</h3>
+        <p>Youtube clone platform with geographically mapped uploaded videos made as a university project for the Internet-software architectures course</p>
+        <div class="card-tags">
+          <span class="tag">Java SpringBoot</span>
+          <span class="tag">Angular</span>
+          <span class="tag">RabbitMQ</span>
+          <span class="tag">Docker</span>
+          <span class="tag">NGINX Load Balancer</span>
+        </div>
+        <button class="card-link" data-project="2">View project →</button>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-cover"><img src="./images/grafika/3d1.png" alt="Grafika 3D preview"></div>
+        <h3>3D Aquarium</h3>
+        <p>3D Aquarium made as a university project for the Computer Graphics course.</p>
+        <div class="card-tags">
+          <span class="tag">OpenGL</span>
+          <span class="tag">Glew</span>
+          <span class="tag">C++</span>
+        </div>
+        <button class="card-link" data-project="3">View project →</button>
+      </div>
+
+      <div class="card reveal reveal-d2">
+        <div class="card-cover"><img src="./images/1.png " alt="Small projects preview"></div>
+        <h3>Smaller for-fun projects</h3>
+        <p>Collaborative trip-planning app with real-time map editing, cost splitting, and offline itinerary export.</p>
+        <div class="card-tags">
+          <span class="tag">Go</span>
+          <span class="tag">Python</span>
+        </div>
+        <button class="card-link" data-project="4">View project →</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-inner">
+      <div class="avatar-wrap reveal">
+        <div class="avatar"><img src="./images/linkedin.jpg"></img></div>
+      </div>
+      <div class="about-text reveal reveal-d1">
+        <div class="section-label">Who I am</div>
+        <h2 class="section-title">About me</h2>
+        <p>
+          I'm Petar, a final year Comp-Sci student at the Faculty of Technical Sciences
+          in Novi Sad. I enjoy building things for the web and mobile, I am also interested in 
+          machine learning and AI, and I'm
+          always looking to learn by working on real projects.
+        </p>
+        <p>
+          I've been consistently developing my skills throughout my education. Right now I'm looking for an internship or a junior
+          role where I can contribute, grow, and work alongside people I can learn from.
+        </p>
+        <div class="skills-list">
+          <span class="skill">C#</span>
+          <span class="skill">Java</span>
+          <span class="skill">Python</span>
+          <span class="skill">Go</span>
+          <span class="skill">Angular</span>
+          <span class="skill">TypeScript</span>
+          <span class="skill">React</span>
+          <span class="skill">Node.js</span>
+          <span class="skill">.NET</span>
+          <span class="skill">Flutter</span>
+          <span class="skill">PostgreSQL</span>
+          <span class="skill">Git</span>
+          <span class="skill">Docker</span>
+        </div>        
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label reveal">Let's talk</div>
+    <h2 class="section-title reveal reveal-d1">Get in touch</h2>
+    <p class="section-sub reveal reveal-d2">I'm currently looking for internship or junior opportunities. If you think I could be a good fit feel free to reach out.</p>
+
+    <div class="contact-list">
+
+      <a href="https://github.com/petarsipka" target="_blank" rel="noopener noreferrer" class="contact-item reveal reveal-d1">
+        <span class="contact-platform">GitHub</span>
+        <span class="contact-handle">github.com/petarsipka</span>
+        <span class="contact-arrow">↗</span>
+      </a>
+
+      <a href="https://www.linkedin.com/in/petar-%C5%A1ipka-3771a8304/" target="_blank" rel="noopener noreferrer" class="contact-item reveal reveal-d2">
+        <span class="contact-platform">LinkedIn</span>
+        <span class="contact-handle">linkedin.com/in/petar-šipka</span>
+        <span class="contact-arrow">↗</span>
+      </a>
+
+      <a href="mailto:petarsipka90@gmail.com" class="contact-item reveal reveal-d3">
+        <span class="contact-platform">Email</span>
+        <span class="contact-handle">petarsipka90@gmail.com</span>
+        <span class="contact-arrow">↗</span>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-container">
+    <div class="logo">Petar Šipka<span>.</span></div>
+    <div class="social-links">
+      <a class="social-btn" href="https://github.com/petarsipka" title="GitHub">GH</a>
+      <a class="social-btn" href="https://www.linkedin.com/in/petar-%C5%A1ipka-3771a8304/" title="LinkedIn">in</a>
+      <a class="social-btn" href="mailto:petarsipka90@gmail.com" title="Email">@</a>
+    </div>
+    <span class="footer-copy">© 2026</span>
+    </div>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+
+    <button class="modal-proj-arrow modal-proj-prev" id="modal-prev-out" aria-label="Previous project">&#8249;</button>
+
+    <div class="modal" id="modal">
+
+      <button class="modal-close" id="modal-close" aria-label="Close dialog">✕</button>
+
+      <!-- Slideshow -->
+      <div class="modal-slideshow">
+        <div class="slides-track" id="slides-track"></div>
+        <button class="slide-arrow slide-prev" id="slide-prev" aria-label="Previous image">&#8249;</button>
+        <button class="slide-arrow slide-next" id="slide-next" aria-label="Next image">&#8250;</button>
+        <div class="slide-dots" id="slide-dots"></div>
+      </div>
+
+      <!-- Content -->
+      <div class="modal-body">
+        <div class="modal-header">
+          <div class="modal-icon" id="modal-icon"></div>
+          <h2 class="modal-title" id="modal-title"></h2>
+          <div class="modal-links" id="modal-links"></div>
+        </div>
+
+        <p class="modal-description" id="modal-description"></p>
+
+        <div class="modal-tech-label">Technologies used</div>
+        <div class="modal-tech" id="modal-tech"></div>
+
+        <div class="modal-nav">
+          <button class="modal-nav-btn" id="modal-prev">← Prev</button>
+          <span class="modal-counter" id="modal-counter"></span>
+          <button class="modal-nav-btn" id="modal-next">Next →</button>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="modal-proj-arrow modal-proj-next" id="modal-next-out" aria-label="Next project">&#8250;</button>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
